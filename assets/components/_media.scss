@@ -1,0 +1,110 @@
+@media screen and (max-width: 1065px) {
+
+    .header {
+        &__top {
+            display: flex;
+
+            justify-content: center;
+
+            &--img {
+                margin-right: 100px;
+                margin-left: 0;
+            }
+
+            &--text {
+                margin-right: 100px;
+            }
+        }
+
+        &__right {
+            display: none;
+        }
+
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .expirience {
+        &__content {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        &__name {
+            font-size: 14px;
+        }
+
+        &__title {
+            font-size: 43px;
+        }
+
+        &__description {
+            font-size: 10px;
+            max-width: 400px;
+        }
+
+        &__readme {
+            font-size: 14px;
+        }
+    }
+
+    .hero {
+        display: none;
+        &__name {
+            font-size: 9px;
+        }
+
+        &__title {
+            font-size: 34px;
+        }
+
+        &__description {
+            font-size: 10px;
+            max-width: 300px;
+            line-height: 10px;
+        }
+
+        &__btns-yellow {
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        &__btns-black {
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        &__border--top {
+            display: none;
+        }
+
+        &__border--bottom {
+            display: none;
+        }
+
+        &__circle {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            right: 150px;
+            top: 112px;
+        }
+
+        &__right--block {
+            position: relative;
+        }
+
+        &__img {
+            margin-top: 160px;
+            width: 100px;
+            height: 293px;
+        }
+    }
+
+    .swiper {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

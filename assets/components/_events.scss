@@ -1,0 +1,83 @@
+.events {
+    margin-top: 155px;
+    position: relative;
+
+    &__title {
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 48px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    &__info {
+        margin-left: 30px;
+    }
+
+    &__block {
+        background: #18191A;
+        padding-right: 300px;
+    }
+
+    &__events {
+        display: flex;
+    }
+
+    &__suptitle {
+        margin-top: 73px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    &__date {
+        margin-top: -25px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    &__description {
+        max-width: 474px;
+        margin-top: 58px;
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    &__link {
+        margin-top: 68px;
+    }
+
+    &__readmore {
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 18px;
+        color: #E2B024;
+        text-decoration: underline;
+    }
+
+    .swiper-button-next {
+        color: #E2B024;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 1px solid #E2B024;
+        right: 210px;
+    }
+
+    .swiper-button-prev {
+        color: #E2B024;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 1px solid #E2B024;
+        left: 210px;
+        z-index: 20;
+    }
+
+}

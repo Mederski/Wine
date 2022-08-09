@@ -1,0 +1,54 @@
+.new {
+    background: #18191A;
+    margin-top: 150px;
+    padding-top: 57px;
+    padding-bottom: 63px;
+
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 48px;
+        color: #E2B024;
+    }
+
+    &__input {
+        display: flex;
+        margin-top: 69px;
+    }
+
+    &__description {
+        margin-top: 24px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    &__email {
+        width: 443px;
+        height: 64px;
+        background: #000000;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    &__subscribe {
+        background: #E2B024;
+        padding: 19px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        color: #1F1F1F;
+        height: 64px;
+    }
+}

@@ -1,0 +1,226 @@
+.products {
+    margin-top: 151px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    &__all {
+        display: flex;
+        margin-top: 89px;
+    }
+
+
+    &__title {
+        text-align: center;
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+
+    &__img1 {
+        width: 148px;
+        height: 355px;
+    }
+
+    &__img2 {
+        width: 364px;
+        height: 364px;
+    }
+
+    &__img3 {
+        width: 122px;
+        height: 340px;
+    }
+
+    &__4block {
+        width: 130px;
+        height: 362px;
+    }
+
+    &__img5 {
+        width: 105px;
+        height: 340px;
+    }
+
+    &__img6 {
+        width: 167px;
+        height: 344px;
+    }
+
+    &__img7 {
+        width: 130px;
+        height: 362px;
+    }
+
+    &__img8 {
+        width: 106px;
+        height: 355px;
+    }
+
+    &__a {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #FFFFFF;
+        margin-left: 72px;
+    }
+
+    &__a:hover {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #E2B024;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #E2B024;
+    }
+
+    &__b {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #FFFFFF;
+        margin-left: 72px;
+    }
+
+    &__b:hover {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #E2B024;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #E2B024;
+    }
+
+    &__c {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #FFFFFF;
+        margin-left: 72px;
+    }
+
+    &__c:hover {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #E2B024;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #E2B024;
+    }
+
+    &__y:hover {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #E2B024;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #E2B024;
+    }
+
+    &__y {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+
+
+    &__products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__disc {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+        background: #E2B024;
+        position: absolute;
+        width: 81px;
+        height: 40px;
+        padding: 10 16 9 15;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__name {
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 24px;
+        align-self: center;
+        margin-top: 18px;
+    }
+
+    &__price {
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 16px;
+        color: #E2B024;
+        align-self: center;
+        // margin-top: -20px;
+    }
+
+    &__block {
+        position: relative;
+        margin-top: 98px;
+        margin-left: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__block7 {
+        margin-top: 98px;
+        margin-left: 44px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__wine {
+        align-self: center;
+    }
+
+    &__name7 {
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 24px;
+        align-self: center;
+        margin-top: 27px;
+    }
+
+    &__price7 {
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 16px;
+        color: #E2B024;
+        align-self: center;
+    }
+
+    &__view {
+        margin-top: 75px;
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 18px;
+        color: #E2B024;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #E2B024;
+    }
+}

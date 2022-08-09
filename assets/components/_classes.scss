@@ -1,0 +1,24 @@
+.container {
+    max-width: 1183px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.helper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.align-self-end {
+    align-self: flex-end;
+    display: flex;
+}
+
+.span__yellow {
+    color: #E2B024;
+}

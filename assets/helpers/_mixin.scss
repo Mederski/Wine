@@ -1,0 +1,6 @@
+@mixin font ($med,$der,$dan,$yar) {
+    font-family: $med;
+    font-weight: $der;
+    font-size: $dan;
+    color: $yar;
+}

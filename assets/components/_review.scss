@@ -1,0 +1,58 @@
+.review {
+    margin-top: 174px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+
+    &__background {
+       left: auto;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        height: 774px;
+    }
+
+    &__content {
+        padding-top: 54px;
+        padding-bottom: 176px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__profile {
+        text-align: center;
+    }
+
+    &__title {
+
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__photo {
+        margin-top: 58px;
+    }
+
+    &__name {
+        margin-top: 30px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    &__description {
+        margin-top: 31px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 900px;
+
+        line-height: 175.3%;
+    }
+}

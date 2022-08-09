@@ -1,0 +1,55 @@
+.expirience {
+    margin-top: 50px;
+&__content {
+    max-width: 745px;
+    margin: 0 auto;
+}
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__name {
+
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        margin-top: 32px;
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 96px;
+        color: #FFFFFF;
+    }
+
+    &__description {
+        margin-top: 24px;
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__readme {
+        margin-top: 35px;
+        font-family: 'ChocolateBox';
+        font-weight: 400;
+        font-size: 16px;
+        color: #E2B024;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #E2B024;
+    }
+    &__img {
+        margin-top: 29px;
+        max-width: 100%;
+        &--wrapper {
+            text-align: center;
+        }
+    }
+}
