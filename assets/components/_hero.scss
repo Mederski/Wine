@@ -125,6 +125,8 @@
     }
 
     &-swiper {
+        position: relative;
+
         .swiper {
             padding-top: 110px;
             padding-bottom: 100px;
@@ -151,7 +153,8 @@
         }
 
         .swiper-button-prev {
-            left: 48.50%;
+            position: absolute;
+            right: 582px;
             font-family: "Poppins";
             font-weight: 500;
             font-size: 20px;
@@ -159,6 +162,7 @@
             margin-top: 12px;
             align-self: center;
             text-decoration: underline;
+            left: auto;
         }
     }
 }

@@ -171,11 +171,19 @@
     &__price {
         font-family: 'Poppins';
         font-weight: 300;
+        font-size: 24px;
+        color: #E2B024;
+        align-self: center;
+    }
+    &__span {
+        font-family: 'Poppins';
+        font-weight: 300;
         font-size: 16px;
         color: #E2B024;
         align-self: center;
-        // margin-top: -20px;
+        text-decoration: line-through;
     }
+    
 
     &__block {
         position: relative;
@@ -223,4 +231,5 @@
         padding-bottom: 8px;
         border-bottom: 1px solid #E2B024;
     }
+   
 }

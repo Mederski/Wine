@@ -19,7 +19,7 @@
 
     &__item {
         width: 370px;
-        height: 558px;
+
         position: relative;
         //     display: flex;
         //   flex-direction: column;
@@ -28,7 +28,7 @@
 
     &__item2 {
         width: 370px;
-        height: 637px;
+      
     }
 
     &__img {
@@ -63,10 +63,15 @@
         color: #FFFFFF;
     }
 
+    &-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+        position: absolute;
+        bottom: 43px;
+        left: 40%;
+        z-index: 1;
+    }
+
     &-swiper {
         .swiper {
-
-
             &-pagination-bullet.swiper-pagination-bullet-active {
                 background: #E2B024;
             }
@@ -76,14 +81,11 @@
                 color: #FFFFFF;
             }
 
-            &-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
-                bottom: 49px;
-            }
-
             &-pagination-bullet {
                 height: 20px;
                 width: 20px;
             }
         }
     }
+
 }

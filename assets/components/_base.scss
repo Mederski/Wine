@@ -1,9 +1,12 @@
 body {
     background: #000000;
     color: #FFFFFF;
+    font-family: 'ChocolateBox',sans-serif;
+    font-family: 'ChocolateBoxDecorative', sans-serif;
 
     ul {
         list-style: none;
+        padding: 0;
 
     }
 
@@ -14,7 +17,10 @@ body {
     a {
         text-decoration: none;
     }
-    h1,h2,p{
+
+    h1,
+    h2,
+    p {
         margin: 0;
         padding: 0;
     }

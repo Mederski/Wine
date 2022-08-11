@@ -1,19 +1,12 @@
-@media screen and (max-width: 1065px) {
+@media screen and (max-width: 1145px) {
 
     .header {
         &__top {
             display: flex;
+        }
 
-            justify-content: center;
-
-            &--img {
-                margin-right: 100px;
-                margin-left: 0;
-            }
-
-            &--text {
-                margin-right: 100px;
-            }
+        &__list {
+            margin-left: 0;
         }
 
         &__right {
@@ -51,7 +44,10 @@
     }
 
     .hero {
-        display: none;
+        &__block {
+            margin-left: 150px;
+        }
+
         &__name {
             font-size: 9px;
         }
@@ -67,6 +63,7 @@
         }
 
         &__btns-yellow {
+            margin-left: 20px;
             padding: 5px;
             font-size: 12px;
         }
@@ -74,14 +71,17 @@
         &__btns-black {
             padding: 5px;
             font-size: 12px;
+            margin-left: 10px;
         }
 
         &__border--top {
-            display: none;
+            // display: none;
+            width: 400px;
         }
 
         &__border--bottom {
-            display: none;
+            // display: none;
+            width: 400px;
         }
 
         &__circle {
@@ -101,10 +101,455 @@
             width: 100px;
             height: 293px;
         }
+
+        .swiper-button-prev {
+            position: absolute;
+            right: 400px;
+        }
     }
 
-    .swiper {
-        max-width: 100%;
-        max-height: 100%;
+    .contact {
+        &__input {
+            &-name {
+                width: 400px;
+                height: 40px;
+            }
+
+            &-messege {
+                height: 90px;
+                width: 400px;
+            }
+        }
     }
+
+    .offer {
+        &__img {
+            max-width: 100%;
+        }
+
+        &__item2 {
+            display: none;
+            width: 200px;
+            // height: 400px;
+        }
+
+    }
+
+    .events {
+        &__events {
+            max-width: 800px;
+        }
+
+        &__block {
+            background: #18191A;
+            padding: 0px;
+        }
+
+        &__photo {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        &__info {
+            margin-left: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .events {
+        &__events {
+            flex-direction: column;
+        }
+
+        &__photo {
+            align-self: center;
+        }
+
+        &__info {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .review {
+        &__description {
+            max-width: 400px;
+        }
+    }
+
+    .expirience {
+        &__img {
+            max-width: 30%;
+        }
+    }
+
+    .offer {
+        &__item {
+            width: 200px;
+        }
+
+        &__info {
+            margin-top: 223px;
+
+        }
+    }
+
+    .hero {
+        &__block {
+            margin-left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .offer {
+        margin-top: 0;
+    }
+
+    .header {
+        &__bottom-yellow {
+            font-size: 10px;
+        }
+
+        &__bottom-a {
+            font-size: 10px;
+        }
+    }
+
+    .events {
+        margin-top: 20px;
+
+        .swiper-button-next {
+            color: #E2B024;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: 1px solid #E2B024;
+            right: 0px;
+        }
+
+        .swiper-button-prev {
+            color: #E2B024;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: 1px solid #E2B024;
+            left: 0px;
+            z-index: 20;
+        }
+
+
+        &__title {
+            font-size: 34px;
+        }
+
+        &__suptitle {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        &__date {
+            margin-top: 0;
+            font-size: 13px;
+        }
+
+        &__description {
+            font-size: 9px;
+            width: 150px;
+        }
+
+        &__img {
+            width: 200px;
+        }
+    }
+
+    .hero {
+        padding: 0;
+
+        &__title {
+            font-size: 23px;
+        }
+
+        &__title-span {
+            font-size: 23px;
+            max-width: 200px;
+        }
+
+        &__description {
+            max-width: 200px;
+        }
+    }
+
+    .contact {
+        &__info-item__nubmer {
+            margin-top: 14px;
+        }
+
+        &__info-item {
+            margin-top: 14px;
+        }
+
+        margin-top: 20px;
+
+        &__title {
+            font-size: 34px;
+        }
+
+        &__info-text {
+            font-size: 12px;
+            width: 300px;
+        }
+
+        &__input-name {
+            width: 300px;
+        }
+
+        &__input-messege {
+            width: 300px;
+        }
+
+        &__btn {
+            width: 100px;
+            height: 44px;
+
+        }
+
+        &__link {
+            font-size: 16px;
+        }
+
+        &__number {
+            font-size: 10px;
+        }
+
+        &__logo {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .products {
+        &__img1 {
+            width: 148px;
+            // height: 355px;
+        }
+    }
+
+    .footer {
+        &__title {
+            font-size: 14px;
+        }
+
+        &__title_info {
+            font-size: 14px;
+            margin-bottom: 40px;
+            margin-top: 31px;
+        }
+
+        &__link {
+            font-size: 10px;
+
+        }
+
+        &__logos {
+            margin-bottom: 10px;
+        }
+
+        &__logo {
+            width: 15px;
+            height: 15px;
+            margin-right: 14px;
+        }
+
+        &__item {
+            margin-top: 5px;
+        }
+
+        &__info {
+            &-item {
+                margin-top: 5px;
+            }
+            &-number {
+                font-size: 10px;
+            }
+        }
+
+        &__bottom-text {
+            font-size: 12px;
+        }
+    }
+
+    .new {
+        &__title {
+            font-size: 34px;
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+
+        &__email {
+            width: 200px;
+            height: 44px;
+        }
+
+        &__subscribe {
+            height: 44px;
+            padding: 0;
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact {
+        &__info-text {
+            font-size: 9px;
+            width: 200px;
+        }
+
+        &__input-name {
+            width: 200px;
+            height: 20px;
+        }
+
+        &__input-messege {
+            width: 200px;
+        }
+        &__input_block-item {
+            font-size: 12px;
+        }
+        &__input_block-item_messege {
+            font-size: 12px;
+        }
+    }
+    .products {
+        &__title {
+            font-size: 34px;
+        }
+        .disc2 {
+            left: 10px;
+        }
+        &__products {
+            justify-content: center;
+        }
+        &__img1 {
+            width: 83px;
+            height: 220px;
+        }
+    
+        &__img2 {
+            width: 220px;
+            height: 220px;
+        }
+    
+        &__img3 {
+            width: 83px;
+            height: 220px;
+        }
+    
+        &__4block {
+            width: 83px;
+            height: 220px;
+        }
+    
+        &__img5 {
+            width: 83px;
+            height: 220px;
+        }
+    
+        &__img6 {
+            width: 83px;
+            height: 220px;
+        }
+    
+        &__img7 {
+            width: 83px;
+            height: 220px;
+        }
+    
+        &__img8 {
+            width: 83px;
+            height: 220px;
+        }
+    }
+    .offer {
+        &__item {
+            width: 30%;
+        }
+        &__name {
+            font-size: 10px;
+
+        }
+        &__price {
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width:601px) {
+    .hero {
+        display: none;
+    }
+    .contact {
+        &__info-text {
+            text-align: center;
+            margin-left: 50px;
+        }
+        &__block {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__btn {
+            align-self: center;
+        }
+        &__info-logos {
+            align-self: center;
+        }
+        
+    }
+  .header {
+    &__top--img {
+        margin-left: 0;
+    }
+  }
+  .review {
+    &__title {
+        font-size: 24px;
+    }
+    &__description {
+        max-width: 320px;
+        font-size: 12px;
+    }
+   
+  }
+  .offer {
+    &__title {
+        font-size: 24px;
+    }
+  }
+  .products {
+    &__title {
+        font-size: 24px;
+
+    }
+    &__all {
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    &__y {
+        font-size: 12px;
+    }
+    &__a {
+        font-size: 12px;
+    }
+    &__b {
+        font-size: 12px;
+    }
+    &__c {
+        font-size: 12px;
+    }
+  }
 }
