@@ -1574,14 +1574,4 @@ body p {
   .products__c {
     font-size: 12px;
   }
-}
-.circle__circle {
-  width: 364px;
-  height: 364px;
-  background: yellow;
-  border-radius: 50%;
-}
-.circle__content {
-  border: 10px solid yellow;
-  padding: 30 20 20 20;
 }/*# sourceMappingURL=index.css.map */

@@ -20,20 +20,3 @@
 @import "./assets/components/footer";
 @import "./assets/components/hero";
 @import "./assets/components/media";
-
-
-
-
-.circle {
-    &__circle {
-        width: 364px;
-        height: 364px;
-        background: yellow;
-        border-radius: 50%;
-    }
-
-    &__content {
-        border: 10px solid yellow;
-        padding: 30 20 20 20;
-    }
-}
