@@ -79,6 +79,16 @@
             color: #FFFFFF;
             background: #18191A;
         }
+
+        &-yellow:hover {
+            color: #E2B024;
+            background: #1F1F1F;
+        }
+
+        &-black:hover {
+            color: #18191A;
+            background: #E2B024;
+        }
     }
 
     &__right--block {
